@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Generic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    /* color: black; */
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.img {
+    width: 200px;
+    aspect-ratio: 4/5;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+a {
+    color: #ffd700;
+    /* Gold color for regular link */
+}
+
+a:hover {
+    color: #ffd700;
+    /* Gold color for link on hover */
+    text-decoration: underline;
+    /* Underline on hover for visual feedback */
+}
+
+/* Generic End */
+
+/* Header Start */
+
+#header {
+    padding: 15px 150px;
+    background-image: linear-gradient(90deg, #330033, #4a148c, #330033);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo>h1 {
+    color: #ffffff;
+    user-select: none;
+    cursor: pointer;
+}
+
+#navBar>ul {
+    padding-right: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Header End */
+
+/* Main Body */
+
+#mainBody {
+    background-color: #000000;
+    color: #b0a0c9;
+}
+
+/* Main Body End */
+
+/* about me */
+#aboutMe {
+    background-color: #4a148c;
+    color: #b0a0c9;
+}
+
+#aboutMe>h1 {
+    color: #ffd700;
+}
+
+/* about me */
+
+/* project */
+#Projects {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+}
+
+/* project */
+
+/* skills */
+#skills {
+    background-color: #330033;
+}
+
+/* skills */
+
+/* contact */
+#Contact {
+    background-color: #000000;
+}
+
+/* contact */
+
+/* footer */
+#footer{
+    background-color: #330033;
+    color: #ffdb58;
+}
+/* footer */
